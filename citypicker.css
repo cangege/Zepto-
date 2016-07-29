@@ -1,0 +1,104 @@
+.citycontainer {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	font-size: 12px;
+}
+
+.picker-item {
+	overflow: hidden
+}
+
+#picker-provence {
+	width: 33.33%;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+}
+
+#picker-city {
+	width: 33.33%;
+	height: 100%;
+	left: 33.33%;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+}
+
+#picker-dist {
+	width: 33.33%;
+	height: 100%;
+	left: 66.66%;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+}
+
+.pick-toolbar {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.pick-content {
+	width: 100%;
+	height: 210px;
+	position: relative;
+	background-color: #FFf;
+	z-index: 0;
+}
+
+.highlightbar {
+	width: 100%;
+	height: 30px;
+	top: 10px;
+	box-shadow: 0px 0px 1px #CCCCCC;
+	position: absolute;
+	z-index: 0;
+}
+
+.blankitem {
+	width: 100%;
+	height: 0;
+}
+
+.pickoneitem {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#btn_citycancel {
+	width: 50px;
+	text-align: center;
+	height: 100%;
+	float: left;
+}
+
+#btn_cityok {
+	width: 50px;
+	text-align: center;
+	height: 100%;
+	float: right;
+}
+
+#txtTip {
+	text-align: center;
+	height: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
